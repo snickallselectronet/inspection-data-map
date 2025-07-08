@@ -7,14 +7,18 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+     "migrate_data": "node scripts/migrate_data.mjs"
   },
   "dependencies": {
     "@nuxtjs/leaflet": "^1.2.6",
+    "@nuxtjs/supabase": "^1.5.3",
+    "@supabase/supabase-js": "^2.50.3",
     "@vue-leaflet/vue-leaflet": "^0.10.1",
     "leaflet": "^1.9.4",
     "nuxt": "^3.17.6",
     "vue": "^3.5.17",
     "vue-router": "^4.5.1"
   }
+  
 }
